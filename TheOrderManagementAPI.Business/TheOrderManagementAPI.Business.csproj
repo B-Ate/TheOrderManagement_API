@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheOrderManagementAPI.Core\TheOrderManagementAPI.Core.csproj" />
+    <ProjectReference Include="..\TheOrderManagementAPI.DataAccess\TheOrderManagementAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\TheOrderManagementAPI.Entities\TheOrderManagementAPI.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
